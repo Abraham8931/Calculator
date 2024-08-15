@@ -1,0 +1,32 @@
+/*styling of the calculator*/
+.calculator {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/*styling the calculator input*/
+.calculator input[type="text"] {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    padding: 20px;
+    border-radius: 5px;
+}
+/*styling the calculator buttons*/
+.calculator button {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/*styling for medium screen*/
+@media (min-width: 768px) {
+    .calculator button {
+        margin: 15px;
+        margin-left: 22px;
+    }
+}
